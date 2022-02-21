@@ -2,7 +2,7 @@
  * @name SimpleEnhancements
  * @description Adds simple animations and enhancements to Discord's design by also adding a redesigned go to present message button.
  * @author ikeman2003
- * @version 1.0.1
+ * @version 1.1.0
  * @website https://github.com/ikeman2003/BetterDiscordEnhancements
  * @source https://github.com/ikeman2003/BetterDiscordEnhancements/tree/main/themes
  * @updateUrl https://raw.githubusercontent.com/ikeman2003/BetterDiscordEnhancements/main/themes/SimpleEnhancements.theme.css
@@ -134,4 +134,14 @@
 }
 .message-2CShn3 {
   animation: slide-up 0.4s ease;
+}
+
+/* Remove Help Icon Button */
+.toolbar-3_r2xA [aria-label="Help"i]{
+    display: none;
+}
+
+/* Move the Search Bar to the top right */
+.search-39IXmY {
+    order: 1;
 }
