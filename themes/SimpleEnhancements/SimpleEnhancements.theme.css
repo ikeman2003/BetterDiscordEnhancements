@@ -2,7 +2,7 @@
  * @name SimpleEnhancements
  * @description Adds simple animations and enhancements to Discord's design by also adding a redesigned go to present message button.
  * @author ikeman2003
- * @version 1.2.1
+ * @version 1.3.0
  * @website https://github.com/ikeman2003/BetterDiscordEnhancements
  * @source https://github.com/ikeman2003/BetterDiscordEnhancements/tree/main/themes
  * @updateUrl https://raw.githubusercontent.com/ikeman2003/BetterDiscordEnhancements/main/themes/SimpleEnhancements.theme.css
@@ -163,3 +163,16 @@
     }
   }
 
+/* Animation on channel select */
+li.containerDefault-YUSmu3.selected-2TbFuo .mainContent-20q_Hp {animation: UserChannelButtons 0.5s normal ease;}
+@keyframes UserChannelButtons {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
