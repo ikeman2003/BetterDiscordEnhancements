@@ -1,0 +1,209 @@
+/**
+ * @name SimpleEnhancements-NoAnim
+ * @description Adds simple enhancements without the chat and channel animations to Discord's design by also adding a redesigned go to present message button.
+ * @author ikeman2003
+ * @version 1.0.0
+ * @website https://github.com/ikeman2003/BetterDiscordEnhancements
+ * @source https://github.com/ikeman2003/BetterDiscordEnhancements/tree/main/themes
+ * @updateUrl https://raw.githubusercontent.com/ikeman2003/BetterDiscordEnhancements/main/themes/SimpleEnhancements.theme.css
+ */
+
+ /**Spin Discord Home Button on click**/
+ @keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(-20deg);
+    }
+    70% {
+        transform: rotate(380deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.pill-L_aLMQ.bd-selected + .listItemWrapper-3d87LP .homeIcon-r0w4ny {
+    animation: spin 0.8s ease;
+}
+
+/* settings/deafen/mute buttons animated */
+.button-12Fmur:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
+  .container-YkUktl .noWrap-hBpHBz {width: 100px;opacity: 1;}
+  .button-12Fmur {transition: 0.2s;}
+  .button-12Fmur:hover {padding-bottom: 0px;transition: 0.2;}
+  @keyframes UserModalButtons {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+
+
+
+/* Emoji Auto-Fill Animation */
+.base-2v-uc0 {
+    transition: all 0.5s;
+}
+.base-2v-uc0:hover {
+    transition: all 0s;
+    transform: scale(1.02);
+}
+
+/* Better Jump To Present Button */
+[class*="jumpToPresentBar"] {
+    display: contents;
+}
+[class*="jumpToPresentBar"] > button:first-child {
+    display: none;
+}
+[class*="jumpToPresentBar"] > button:last-child {
+    position: absolute;
+    z-index: 1;
+    bottom: 24px;
+    right: 22px;
+    padding: 8px !important;
+    height: auto;
+    background-color: #5865F2;
+    box-shadow: var(--elevation-high);
+    border-radius: 100px;
+    display: flex;
+    font-size: 0px;
+    color: transparent;
+    transition: font-size .2s .1s, color .2s, padding .4s .1s;
+}
+[class*="jumpToPresentBar"] > button svg {
+    order: -1;
+    margin: 0px;
+    height: 24px;
+    width: 24px;
+    top: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #FFFFFF;
+    transition: margin .6s;
+}
+[class*="jumpToPresentBar"]:hover > button {
+    padding: 8px 18px !important;
+    font-size: 14px;
+    color: #FFFFFF;
+    transition: font-size .2s, color .2s .1s, padding .4s;
+}
+[class*="jumpToPresentBar"]:hover > button svg {
+    margin-right: 2px;
+    margin-left: -6px;
+}
+
+/* Jump to Present+ by Lonk#6942 */
+@keyframes pop {
+    from {
+        transform: translateY(30px);
+        opacity: 0.4;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.newMessagesBar-1hF-9G.barBase-3xxDXu {
+    margin-left: auto;
+    margin-top: auto;
+    align-self: flex-end;
+    justify-self: flex-end !important;
+    position: absolute !important;
+    z-index: 998;
+    bottom: 78px;
+    right: 22px;
+    padding: 8px 8px !important;
+    width: 25.5px;
+    height: 20px;
+    background-color: #5865F2;
+    box-shadow: var(--elevation-high);
+    border-radius: 100px;
+    display: flex;
+    animation: pop 0.2s ease-in;
+    transition: font-size 0s, color 0.2s 0.1s, padding 0.4s, width 0.1s 50ms;
+    opacity: 1;
+}
+
+.newMessagesBar-1hF-9G.barBase-3xxDXu:hover {
+    padding: 8px 18px !important;
+    width: 105px;
+    transition: font-size 0s, color 0.2s 0.1s, padding 0.4s, width 0.1s 50ms;
+}
+
+.newMessagesBar-1hF-9G.barBase-3xxDXu > button {
+    font-size: 0px;
+    color: transparent !important;
+    transition: color 0.3s 0.1s, padding 0.4s;
+}
+
+.newMessagesBar-1hF-9G.barBase-3xxDXu:hover > button {
+    font-size: 14px;
+    color: #ffffff !important;
+    transition: color 0.3s 0.1s, padding 0.4s;
+}
+
+.barButtonIcon-bMvzp2 {
+    order: -1;
+    margin: 0;
+    margin-right: 0;
+    margin-left: 6.5px;
+    transition: all 0.2s;
+    color: #fff !important;
+}
+
+.newMessagesBar-1hF-9G.barBase-3xxDXu:hover .barButtonIcon-bMvzp2 {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.barButtonBase-Sk2mdB {
+    padding: 0;
+}
+
+.barButtonMain-2GIx4o,
+.barButtonMain-2GIx4o * {
+    display: none !important;
+}
+
+.message-2CShn3 {
+  animation: slide-up 0.4s ease;
+}
+
+/* Remove Help Icon Button */
+.toolbar-3_r2xA [aria-label="Help"i]{
+    display: none;
+}
+
+/* Move the Search Bar to the top right */
+.search-39IXmY {
+    order: 1;
+}
+
+/* chat box buttons animated*/
+.buttons-uaqb-5  .button-f2h6uQ:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
+    .buttonContainer-2lnNiN .button-f2h6uQ {opacity: 1;}
+    .buttons-uaqb-5  .button-f2h6uQ {transition: 0.2s;}
+    .buttons-uaqb-5  .button-f2h6uQ:hover {padding-bottom: 0px;transition: 0.2;}
+      @keyframes UserModalButtons {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+
