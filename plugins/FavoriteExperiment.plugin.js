@@ -1,14 +1,14 @@
 /**
  * @name FavoriteExperiment
  * @author ikeman2003
- * @website
- * @source
- * @version 1.0
+ * @website https://github.com/ikeman2003/BetterDiscordEnhancements
+ * @source https://github.com/ikeman2003/BetterDiscordEnhancements/blob/main/plugins/FavoriteExperiment.plugin.js
+ * @version 1.1
  * @description Make it so you are able to enable the FavoriteChannel Experiment
- * @updateUrl
+ * @updateUrl https://raw.githubusercontent.com/ikeman2003/BetterDiscordEnhancements/main/plugins/FavoriteExperiment.plugin.js
  */
 
- module.exports = class SoftBlock {
+ module.exports = class FavoriteExperiment {
 
     start() {
         
