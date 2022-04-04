@@ -3,7 +3,7 @@
  * @author ikeman2003
  * @website https://github.com/ikeman2003/BetterDiscordEnhancements
  * @source https://github.com/ikeman2003/BetterDiscordEnhancements/blob/main/plugins/FavoriteExperiment.plugin.js
- * @version 1.1
+ * @version 1.1.1
  * @description Make it so you are able to enable the FavoriteChannel Experiment
  * @updateUrl https://raw.githubusercontent.com/ikeman2003/BetterDiscordEnhancements/main/plugins/FavoriteExperiment.plugin.js
  */
@@ -11,8 +11,6 @@
  module.exports = class FavoriteExperiment {
 
     start() {
-		Object.defineProperty(BdApi.findModuleByProps(["isDeveloper"]),"isDeveloper",{get:_=>1,set:_=>_,configurable:true});
-        
         webpackChunkdiscord_app.push([
             [Symbol()],
             {},
@@ -31,13 +29,5 @@
             }
             ]);
         }
-    stop() {
-        BdApi.findModuleByProps(["isDeveloper"]) && Object.defineProperty(BdApi.findModuleByProps(["isDeveloper"]),"isDeveloper",{
-			get:_=>0,
-			set:_=>{
-				throw new Error("Username is not in the sudoers file. This incident will be reported");
-			},
-			configurable: true
-        });
-    }
+    stop() {}
 };
