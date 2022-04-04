@@ -11,6 +11,7 @@
  module.exports = class FavoriteExperiment {
 
     start() {
+		Object.defineProperty(BdApi.findModuleByProps(["isDeveloper"]),"isDeveloper",{get:_=>1,set:_=>_,configurable:true});
         
         webpackChunkdiscord_app.push([
             [Symbol()],
@@ -30,6 +31,13 @@
             }
             ]);
         }
-
-    stop() {}
+    stop() {
+        BdApi.findModuleByProps(["isDeveloper"]) && Object.defineProperty(BdApi.findModuleByProps(["isDeveloper"]),"isDeveloper",{
+			get:_=>0,
+			set:_=>{
+				throw new Error("Username is not in the sudoers file. This incident will be reported");
+			},
+			configurable: true
+        });
+    }
 };
