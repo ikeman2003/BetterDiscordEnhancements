@@ -2,7 +2,7 @@
  * @name SimpleEnhancements
  * @description Adds simple animations and enhancements to Discord's design by also adding a redesigned go to present message button.
  * @author ikeman2003
- * @version 1.4.1
+ * @version 1.5.0
  * @website https://github.com/ikeman2003/BetterDiscordEnhancements
  * @source https://github.com/ikeman2003/BetterDiscordEnhancements/tree/main/themes
  * @updateUrl https://raw.githubusercontent.com/ikeman2003/BetterDiscordEnhancements/main/themes/SimpleEnhancements.theme.css
@@ -249,4 +249,17 @@ li.containerDefault-YUSmu3.selected-2TbFuo .mainContent-20q_Hp {animation: UserC
     100% {
         transform: translateX(0px);
     }
+}
+
+
+/* Return Old Italic Font */
+@font-face {
+    font-family: 'Old Italics';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/assets/b22a047b24393561750b742d8d88a48a.woff2) format("woff2");
+}
+.markup-eYLPri em, .italics-1HfeXG {
+    font-family: 'Old Italics';
+    font-style: oblique !important;
 }
