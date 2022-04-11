@@ -259,6 +259,12 @@ li.containerDefault-YUSmu3.selected-2TbFuo .mainContent-20q_Hp {animation: UserC
     font-weight: 400;
     src: url(/assets/b22a047b24393561750b742d8d88a48a.woff2) format("woff2");
 }
+@font-face {
+    font-family: 'Old Italics';
+    font-style: bold;
+    font-weight: 700;
+    src: url(/assets/3d0099ecfaf7718dad3fb6cb3c0ee650.woff2) format("woff2");
+}
 .markup-eYLPri em, .italics-1HfeXG {
     font-family: 'Old Italics';
     font-style: oblique !important;
