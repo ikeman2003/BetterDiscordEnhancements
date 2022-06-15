@@ -2,7 +2,7 @@
  * @name SimpleEnhancements-NoAnim
  * @description Adds simple enhancements without the chat and channel animations to Discord's design by also adding a redesigned go to present message button.
  * @author ikeman2003
- * @version 1.1.0
+ * @version 1.2.0
  * @website https://github.com/ikeman2003/BetterDiscordEnhancements
  * @source https://github.com/ikeman2003/BetterDiscordEnhancements/tree/main/themes
  * @updateUrl https://raw.githubusercontent.com/ikeman2003/BetterDiscordEnhancements/main/themes/SimpleEnhancements.theme.css
@@ -222,4 +222,15 @@
 .markup-eYLPri em, .italics-1HfeXG {
     font-family: 'Old Italics';
     font-style: oblique !important;
+}
+
+
+/* Replace Muted channel icons with an actual muted icon, Only downside is that the muted icon goes away when you select the channel, There's no way around that(same way the channel name becomes white when you select it.) */
+
+.modeMuted-2T4MDZ .icon-2W8DHg path{ display: none; }
+.modeMuted-2T4MDZ .iconContainer-21RCa3{ position:relative; }
+.modeMuted-2T4MDZ .iconContainer-21RCa3:before{
+    content: '🔇';
+    position:absolute;
+    font-size:20px; 
 }
