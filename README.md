@@ -12,5 +12,5 @@ Adds simple enhancements like removing the help button redesigned jump to presen
 
 ## Plugins
 
-### [FavoriteExperiment](https://github.com/ikeman2003/BetterDiscordEnhancements/blob/main/plugins/FavoriteExperiment.plugin.js)
-Adds the very alpha FavoriteChannels experiments the the experiments you will need [this](https://github.com/Inve1951/BetterDiscordStuff/blob/master/plugins/discordexperiments.plugin.js) to get the experiments menus
+### ~~[FavoriteExperiment](https://github.com/ikeman2003/BetterDiscordEnhancements/blob/main/plugins/FavoriteExperiment.plugin.js)~~
+~~Adds the very alpha FavoriteChannels experiments the the experiments you will need [this](https://github.com/Inve1951/BetterDiscordStuff/blob/master/plugins/discordexperiments.plugin.js) to get the experiments menus~~ (Currently not functional due to the experiment patches and deprication of the required plugin)
