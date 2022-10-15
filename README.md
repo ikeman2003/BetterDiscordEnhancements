@@ -1,3 +1,5 @@
+# THESE ARE EARLY DEVELOPMENT TESTING BUILDS AND ARE LIKEY TO BREAK
+
 # BetterDiscordEnhancements
 Themes and Plugins that add simple enhancements to BetterDiscord.
 
