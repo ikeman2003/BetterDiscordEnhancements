@@ -2,7 +2,7 @@
  * @name SimpleEnhancements-NoAnim
  * @description Adds simple enhancements without the chat and channel animations to Discord's design by also adding a redesigned go to present message button.
  * @author ikeman2003
- * @version 1.2.1
+ * @version 1.2.2
  * @website https://github.com/ikeman2003/BetterDiscordEnhancements
  * @source https://github.com/ikeman2003/BetterDiscordEnhancements/tree/main/themes
  * @updateUrl https://raw.githubusercontent.com/ikeman2003/BetterDiscordEnhancements/main/themes/SimpleEnhancements.theme.css
@@ -32,7 +32,7 @@
 .button-12Fmur:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
   .container-YkUktl .noWrap-hBpHBz {width: 100px;opacity: 1;}
   .button-12Fmur {transition: 0.2s;}
-  .button-12Fmur:hover {padding-bottom: 0px;transition: 0.2;}
+  .button-12Fmur:hover {padding-bottom: 0px;transition: 0.2s;}
   @keyframes UserModalButtons {
     0% {
       transform: translateY(0px);
