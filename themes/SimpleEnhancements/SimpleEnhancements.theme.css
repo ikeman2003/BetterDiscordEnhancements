@@ -8,6 +8,9 @@
  * @updateUrl https://raw.githubusercontent.com/ikeman2003/BetterDiscordEnhancements/main/themes/SimpleEnhancements.theme.css
  */
 
+ /* Revert back to old Discord font cuz gg sans is meh */
+ @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
+
  /**Spin Discord Home Button on click**/
 @keyframes spin {
     0% {
@@ -252,23 +255,6 @@ li.containerDefault-YUSmu3.selected-2TbFuo .mainContent-20q_Hp {animation: UserC
 }
 
 
-/* Return Old Italic Font */
-@font-face {
-    font-family: 'Old Italics';
-    font-style: normal;
-    font-weight: 400;
-    src: url(/assets/b22a047b24393561750b742d8d88a48a.woff2) format("woff2");
-}
-@font-face {
-    font-family: 'Old Italics';
-    font-style: bold;
-    font-weight: 700;
-    src: url(/assets/3d0099ecfaf7718dad3fb6cb3c0ee650.woff2) format("woff2");
-}
-.markup-eYLPri em, .italics-1HfeXG {
-    font-family: 'Old Italics';
-    font-style: oblique !important;
-}
 
 
 
