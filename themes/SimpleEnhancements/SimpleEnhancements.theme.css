@@ -2,7 +2,7 @@
  * @name SimpleEnhancements
  * @description Adds simple animations and enhancements to Discord's design by also adding a redesigned go to present message button.
  * @author ikeman2003
- * @version 1.6.3
+ * @version 1.6.4
  * @website https://github.com/ikeman2003/BetterDiscordEnhancements
  * @source https://github.com/ikeman2003/BetterDiscordEnhancements/tree/main/themes
  * @updateUrl https://raw.githubusercontent.com/ikeman2003/BetterDiscordEnhancements/main/themes/SimpleEnhancements.theme.css
@@ -32,7 +32,7 @@
 }
 
 /* settings/deafen/mute buttons animated */
-.button-12Fmur:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
+.button-12Fmur:hover .contents-3NembX {animation: UserModalButtons 0.5s normal ease;}
   .container-YkUktl .noWrap-hBpHBz {width: 100px;opacity: 1;}
   .button-12Fmur {transition: 0.2s;}
   .button-12Fmur:hover {padding-bottom: 0px;transition: 0.2s;}
@@ -224,10 +224,10 @@
 }
 
 /* chat box buttons animated*/
-.buttons-uaqb-5  .button-f2h6uQ:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
-    .buttonContainer-2lnNiN .button-f2h6uQ {opacity: 1;}
-    .buttons-uaqb-5  .button-f2h6uQ {transition: 0.2s;}
-    .buttons-uaqb-5  .button-f2h6uQ:hover {padding-bottom: 0px;transition: 0.2;}
+.buttons-uaqb-5  .button-ejjZWC:hover .contents-3NembX {animation: UserModalButtons 0.5s normal ease;}
+    .buttonContainer-2lnNiN .button-ejjZWC {opacity: 1;}
+    .buttons-uaqb-5  .button-ejjZWC {transition: 0.2s;}
+    .buttons-uaqb-5  .button-ejjZWC:hover {padding-bottom: 0px;transition: 0.2;}
       @keyframes UserModalButtons {
     0% {
       transform: translateY(0px);
