@@ -2,7 +2,7 @@
  * @name SimpleEnhancements
  * @description Adds simple animations and enhancements to Discord's design by also adding a redesigned go to present message button.
  * @author ikeman2003
- * @version 2.0.0
+ * @version 2.0.1
  * @website https://github.com/ikeman2003/BetterDiscordEnhancements
  * @source https://github.com/ikeman2003/BetterDiscordEnhancements/tree/main/themes
  * @updateUrl https://raw.githubusercontent.com/ikeman2003/BetterDiscordEnhancements/main/themes/SimpleEnhancements.theme.css
@@ -270,7 +270,7 @@ li.containerDefault__3187b.selected__3b4cb .linkTop_eaa673 {animation: UserChann
 
 
 /* Floating Folders */
-.wrapper-38slSD:active {
+.wrapper_ed1dea:active {
     -webkit-transform: unset;
     transform: none;
 }
