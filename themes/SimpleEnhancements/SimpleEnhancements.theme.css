@@ -2,7 +2,7 @@
  * @name SimpleEnhancements
  * @description Adds simple animations and enhancements to Discord's design by also adding a redesigned go to present message button.
  * @author ikeman2003
- * @version 2.0.1
+ * @version 2.0.2
  * @website https://github.com/ikeman2003/BetterDiscordEnhancements
  * @source https://github.com/ikeman2003/BetterDiscordEnhancements/tree/main/themes
  * @updateUrl https://raw.githubusercontent.com/ikeman2003/BetterDiscordEnhancements/main/themes/SimpleEnhancements.theme.css
@@ -12,7 +12,7 @@
  @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
 
  /**Spin Discord Home Button on click**/
-@keyframes spin {
+ @keyframes spin {
     0% {
         transform: rotate(0deg);
     }
@@ -27,8 +27,8 @@
     }
 }
 
-.pill-L_aLMQ.wrapper-z5ab_q + .listItemWrapper-3d87LP.selected-3a1QGn .homeIcon-r0w4ny {
-    animation: spin 0.8s ease;
+.tutorialContainer__890ea .selected_ad2d13 .childWrapper__01b9c svg {
+    animation: spin 0.8s 0.2s ease;
 }
 
 /* settings/deafen/mute buttons animated */
