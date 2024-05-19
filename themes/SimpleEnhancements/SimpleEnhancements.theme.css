@@ -2,7 +2,7 @@
  * @name SimpleEnhancements
  * @description Adds simple animations and enhancements to Discord's design by also adding a redesigned go to present message button.
  * @author ikeman2003
- * @version 2.0.3
+ * @version 2.0.4
  * @website https://github.com/ikeman2003/BetterDiscordEnhancements
  * @source https://github.com/ikeman2003/BetterDiscordEnhancements/tree/main/themes
  * @updateUrl https://raw.githubusercontent.com/ikeman2003/BetterDiscordEnhancements/main/themes/SimpleEnhancements.theme.css
@@ -50,7 +50,7 @@
 
 
 /* Pop-out Animation */ 
-.privateChannels-oVe7HL, .menu-1QACrS, .emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
+.privateChannels-oVe7HL, .menu-1QACrS, .emojiPickerHasTabWrapper__63198, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container_a48b21, .containerDefault_ae2ea4, .containerDefault_e3b32b, .userPopoutOuter_d67f56 {
     animation: custom-menu-animation 250ms ease;
     transform-origin: top;
 }
@@ -71,10 +71,10 @@
 }
 
 /* Emoji Auto-Fill Animation */
-.base-2v-uc0 {
+.base__87e58 {
     transition: all 0.5s;
 }
-.base-2v-uc0:hover {
+.base__87e58:hover {
     transition: all 0s;
     transform: scale(1.02);
 }
@@ -208,12 +208,12 @@
         transform: translateX(0px);
     }
 }
-.message__80c10 {
+.message_ccca67 {
   animation: slide-up 0.4s ease;
 }
 
 /* Remove Help Icon Button */
-.toolbar__88c63 [aria-label="Help"i]{
+.anchor_c8ddc0 [aria-label="Help"i]{
     display: none;
 }
 
@@ -223,10 +223,10 @@
 }
 
 /* chat box buttons animated*/
-.buttons_ce5b56  .button_afdfd9:hover .contents_fb6220 {animation: UserModalButtons 0.5s normal ease;}
-    .buttonContainer-2lnNiN .button-ejjZWC {opacity: 1;}
-    .buttons_ce5b56  .button-ejjZWC {transition: 0.2s;}
-    .buttons_ce5b56  .button-ejjZWC:hover {padding-bottom: 0px;transition: 0.2;}
+.button__581d0  .button__493d9:hover .contents__322f4 {animation: UserModalButtons 0.5s normal ease;}
+    .buttonContainer_ff1010 .button__493d9  {opacity: 1;}
+    .button__581d0  .button__493d9  {transition: 0.2s;}
+    .button__581d0  .button__493d9:hover {padding-bottom: 0px;transition: 0.2;}
       @keyframes UserModalButtons {
     0% {
       transform: translateY(0px);
@@ -240,7 +240,7 @@
   }
 
 /* Animation on channel select */
-li.containerDefault__3187b.selected__3b4cb .linkTop_eaa673 {animation: UserChannelButtons 0.5s normal ease;}
+li.containerDefault_ae2ea4.selected__11b62 .linkTop_c8969d {animation: UserChannelButtons 0.5s normal ease;}
 @keyframes UserChannelButtons {
     0% {
         transform: translateX(0px);
@@ -259,9 +259,9 @@ li.containerDefault__3187b.selected__3b4cb .linkTop_eaa673 {animation: UserChann
 
 /* Replace Muted channel icons with an actual muted icon, Only downside is that the muted icon goes away when you select the channel, There's no way around that(same way the channel name becomes white when you select it.) */
 
-.modeMuted__0aeea .icon_eff5d4 path{ display: none; }
-.modeMuted__0aeea .iconContainer__3f9b0{ position:relative; }
-.modeMuted__0aeea .iconContainer__3f9b0:before{
+.modeMuted_f0a72e .icon__67ab4 path{ display: none; }
+.modeMuted_f0a72e .iconContainer__6a580{ position:relative; }
+.modeMuted_f0a72e .iconContainer__6a580:before{
     content: '🔇';
     position:absolute;
     font-size:20px; 
