@@ -2,7 +2,7 @@
  * @name SimpleEnhancements
  * @description Adds simple animations and enhancements to Discord's design by also adding a redesigned go to present message button.
  * @author ikeman2003
- * @version 2.0.2
+ * @version 2.0.3
  * @website https://github.com/ikeman2003/BetterDiscordEnhancements
  * @source https://github.com/ikeman2003/BetterDiscordEnhancements/tree/main/themes
  * @updateUrl https://raw.githubusercontent.com/ikeman2003/BetterDiscordEnhancements/main/themes/SimpleEnhancements.theme.css
@@ -27,15 +27,14 @@
     }
 }
 
-.tutorialContainer__890ea .selected_ad2d13 .childWrapper__01b9c svg {
+.tutorialContainer_b06ae6 .selected_ae80f7 .childWrapper_a6ce15 svg {
     animation: spin 0.8s 0.2s ease;
 }
-
 /* settings/deafen/mute buttons animated */
-.button__4f306:hover .contents_fb6220 {animation: UserModalButtons 0.5s normal ease;}
-  .container_ca50b9 .noWrap-hBpHBz {width: 100px;opacity: 1;}
-  .button__4f306 {transition: 0.2s;}
-  .button__4f306:hover {padding-bottom: 0px;transition: 0.2s;}
+.button_ae40a4:hover .contents__322f4 {animation: UserModalButtons 0.5s normal ease;}
+  .container_debb33 .noWrap-hBpHBz {width: 100px;opacity: 1;}
+  .button_ae40a4 {transition: 0.2s;}
+  .button_ae40a4:hover {padding-bottom: 0px;transition: 0.2s;}
   @keyframes UserModalButtons {
     0% {
       transform: translateY(0px);
